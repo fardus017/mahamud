@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+padding: 0;}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.margin{width: 860px;
+margin: auto;}
+/* header css */
+.header{background-color: rgb(28, 240, 141);}
+.header-left{float: left;width: 30%;}
+.header-right{float: right;width: 70%;
+
+}
+.header-right ul { text-align: left;border-left: 1px solid rgb(230, 212, 212);
+
+}
+.header-right ul li{display: inline-block;margin-right: -5;
+    
+
+}
+.header-right ul li a{
+    display:block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+font-size: 11px;
+padding: 0 30px;
+line-height:60px ;
+border-right: 1px solid rgb(230, 212, 212);
+transition: .5s;
+}
+ .header-right ul li a:hover{background-color: rgba(8, 165, 92, 0.493);
+} 
+.header-left img{max-width: 100%;height: 60px;width: auto;}
+.drop-dowon{}
+.tac{text-align: center;}
+.tal{text-align: left;}
+.tar{text-align: right;}
+.bannar{background : url(./3.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0px;
+margin-top: -4px;background-attachment: fixed;
+}
+.bimg{
+
+}
+.sav{  } 
+.itm{float: left;width: 32.3%;
+border: 1px solid hsl(108, 23%, 91%);
+padding: 10px;
+box-sizing:border-box ;}
+.itm h2 {margin-top: 50px;
+
+}
+.mnn p {
+    margin-top: 10px;
+    width: 479px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;}
+    
+    .blog{}
+    
+    .blog-laft{float: left;
+    width: 69%;}
+
+    .blog-right{float: right;
+    width: 25%;}
+
+    .blog-item img { float: left;
+    margin-right: 15px;}
+    .blog-item{margin: 15px;}
+    .lm img{width: 150px;
+    height: 150px;}
+    .blog-right{}
+    .blog-right h2{
+        margin-bottom: 5px;border-bottom: 1px solid hsl(108, 38%, 72%);text-align: center;
+    }
+    .blog-right ul{}
+    .blog-right ul li{list-style: none;
+    margin-bottom: 2px;text-align: center;
+padding: 10px;border: 1px solid rgb(221, 82, 112) ;border-radius: 5px;background-color: rgb(178, 235, 204);}
+
+
+
+.fotter{background: rgb(53, 38, 66);height: 35px;}
+.fotter-left{float: left;
+width: 50px;display: inline-block;position: absolute;color: rgb(16, 243, 46);}
+.fotter-right{float: right;
+width:55% ;}
+.sosal {}
+.sosal li{display: inline-block; border-left: 1px solid rgb(230, 212, 212);}
+.sosal li a {
+    color: rgb(238, 245, 248);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 3px 40px;
+    border-right: 1px solid rgb(230, 212, 212);
+    line-height: 21px;}
+    
+.sosal li a .hover{color: blue;}
